@@ -1,0 +1,220 @@
+.font-style {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+body{
+    width: 1280px;
+    padding-left: 280px;
+}
+  /* Nav start Hare */
+  .nbd{
+    color: rgb(14, 14, 14);;
+    font-size: 34px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-weight: 700;
+  }
+
+  .n-btn{
+    color: rgb(0, 106, 80);
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    width: 116px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 600;
+    
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  /* idea section start */
+  .idea{
+    display: flex;
+    align-items: center;
+    background-color:rgb(198, 228, 214) ;
+    height: 560px;
+    padding: 80px 100px 80px 100px;
+    border-radius: 20px;
+    }
+
+.ibd-two{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.h-idea{
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+    margin-top: 28px;
+    margin-bottom: 22px;
+}
+
+.idea-btn{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+  display: flex; text-align: center;
+}
+
+.rcnt{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.rc-p{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.rcnt-crd-one{
+  border-radius: 24px;
+  background: #f3f1f1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32;
+  padding: 48px;
+  margin-bottom: 24px;
+}
+
+.rcnt-img{
+  border-radius: 24px;
+  width: 408px;
+  height: 306px;
+
+}
+
+.rcnt-btn{
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 13px 26px 13px 26px;
+  margin-top: 16px;
+  color: #ffffff;
+}
+.Donate { text-align: center;
+  font width:1280px ; 
+  font height:48px; 
+  
+  
+}
+.dis{ display: flex;}
+.dnt-td-txt{
+  text-align: center;
+
+}
+.dnt-td{
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.dnt-box{
+  width: 240px;
+  height: 128px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: #f3f1f1;
+}
+
+.dnt-crd-cntnr{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 32px; 
+  padding-bottom: 32px;  
+}
+
+.bg-light-green{
+  background: rgb(198, 228, 214);
+}
+
+.dnt-input{
+  width: 100%;
+  height: 64px;
+  box-sizing: border-box;
+  padding: 20px 40px 20px 40px;
+  background: #f3f1f1;
+  text-align: center;
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+}
+
+.btn-cntr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .sec-sub{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .input-subs{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 18px 40px 18px 40px;
+    border: none;
+  }
+
+  .btn-subs{
+    width: 150px;
+    height: 100%;
+    padding: 17px 34px 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    border: none;
+  }
+
+  .subs-news{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  hr.solid {
+    border-top: 2px solid #bbb;
+    margin-top: 36px;
+  }
+
+  .f-img{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 36px;
+  }
+
+  footer{
+    padding: 50px 160px 50px 160px; 
+    background: #f3f1f1;
+    margin-bottom: 200px;
+    border-radius: 6px;
+  }
